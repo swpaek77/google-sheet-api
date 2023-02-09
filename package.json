@@ -16,7 +16,8 @@
     "start:prod": "cross-env NODE_ENV=prod node ./bin/index.js",
     "start:dev": "cross-env NODE_ENV=dev node ./bin/index.js",
     "prod": "cross-env NODE_ENV=prod ts-node ./src/index.ts",
-    "dev": "cross-env NODE_ENV=dev ts-node ./src/index.ts"
+    "dev": "cross-env NODE_ENV=dev ts-node ./src/index.ts",
+    "app": "cross-env NODE_ENV=app ts-node ./src/app.ts"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
